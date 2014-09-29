@@ -1,0 +1,39 @@
+body {
+	background-color: lightblue;
+}
+
+#header {
+	background-color: #F6FFFF;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	padding: 5px;
+}
+
+h1 {
+	color: #4761E8;
+}
+
+#navbar {
+	position: relative;
+	float: left;
+	width: 100%;
+	background-color: #DCF3FF;
+}
+
+#navbar ul {
+	list-style-type: none;
+	padding: 0px;
+	text-indent: 20px;
+	font-family: verdana, arial, sans-serif;
+}
+
+#navbar li {
+	display: inline-block;
+}
+
+#navbar a {
+	text-decoration: none;
+	display: inline-block;
+	width: 180px;
+}
