@@ -8,8 +8,11 @@
 		<meta name="description" content="This is my meta description!">
 		<meta name="keywords" content="simple, chat, interface">
 		<meta name="author" content="Colin MacInnis">
+
+
 	</head>
 	<body>
+
 		<div id="header">
 			<h1>Creating a Simple Chat Interface</h1>
 		</div>
@@ -21,13 +24,24 @@
 				<li><a href="http://halifax.com">Halifax</a></li>
 		</div>
 
+		
+
 		<div id="section">
-			<h1>WEO</h1>
-			<p>Interested in what buttons do? Find out! Click the button below!</p>
-			Cool button here<br>
-			<button>Shibby</button>
+
+			<form name="input" action="demo_form_action.asp" method="get">
+				First Name: <input type="text" name="firstname"><br>
+				Last Name: <input type="text" name="lastname"><br>
+				<input type="radio" name="sex" value="male">Male<br>
+				<input type="radio" name="sex" value="female">Female<br>
+				<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+				<input type="checkbox" name="vehicle" value="Car">I have a car<br>
+				<input type="submit" name="submit" value"Submit">
+			</form>
+
 		</div>
 
+	
+			
 		<div id="footer">
 			Copyright (C) Ottrxp.com
 		</div>
