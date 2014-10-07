@@ -1,39 +1,90 @@
 body {
-	background-color: lightblue;
+	background-color: #E0E0E0;
 }
 
-#header {
-	background-color: #F6FFFF;
-	color: white;
-	text-align: center;
-	font-family: sans-serif;
-	padding: 5px;
+p {
+	font-family: arial;
+	font-size: 18px;
 }
 
-h1 {
-	color: #4761E8;
+form {
+	font-family: arial;
 }
 
-#navbar {
-	position: relative;
+img {
+	height: 35px;
+	text-align: right;
+}
+
+button {
+	background-color: white;
+	font-family: arial;
+}
+
+#Step1 {
+	margin: 25px;
+	width: 500px;
+	padding: 25px;
+	border: 2px solid black;
 	float: left;
+}
+
+
+#Step2 {
+	margin: 25px;
+	width: 1100px;
+	padding: 25px;
+	border: 2px solid black;
+	float: left;
+	font-family: arial;
+}
+
+#ChatBox {
+	margin: 25px;
+	width: 990px;
+	height: 450px;
+	border: 3px solid black;
+	float: center;
+	background-color: white;
+	overflow: auto;
+}
+
+#textInput {
+	margin: 25px;
+	width: 900px;
+	height: 40px;
+	border: 3px solid black;
+	float: left;
+	background-color: white;
+}
+
+#textInput input{
+	width: 895px;
+	height: 35px;
+	padding-bottom: 0px;
+	float: left;
+	font-family: arial;
+	font-size: 15px;
+}
+
+
+#Header {
+	height: 45px;
 	width: 100%;
-	background-color: #DCF3FF;
+	padding: 12px;
+	background-color: #484848;
+	font-family: arial;
+	font-size: 40px;
+	color: #F0FFFF;
 }
 
-#navbar ul {
-	list-style-type: none;
-	padding: 0px;
-	text-indent: 20px;
-	font-family: verdana, arial, sans-serif;
+
+#UserCrd {
+	margin: 25px;
+	font-family: arial;
 }
 
-#navbar li {
-	display: inline-block;
-}
-
-#navbar a {
-	text-decoration: none;
-	display: inline-block;
-	width: 180px;
+#YourInfo {
+	margin: 25px;
+	font-family: arial;	
 }
